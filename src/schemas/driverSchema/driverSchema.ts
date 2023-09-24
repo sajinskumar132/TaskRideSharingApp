@@ -10,7 +10,7 @@ export const driverSchemaType:GraphQLObjectType=new GraphQLObjectType({
         userName:{type:new GraphQLNonNull(GraphQLString)},
         emailId:{type:new GraphQLNonNull(GraphQLString)},
         password:{type:new GraphQLNonNull(GraphQLString)},
-        licenceNumber:{type:new GraphQLNonNull(GraphQLString)},
+        licenseNumber:{type:new GraphQLNonNull(GraphQLString)},
         token:{type:GraphQLString},
         status:{type:GraphQLString},
         documents:{type:new GraphQLList(driverDocumentsSchemaType),async resolve(parent){

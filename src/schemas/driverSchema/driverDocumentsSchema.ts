@@ -5,7 +5,7 @@ export const driverDocumentsSchemaType:GraphQLObjectType=new GraphQLObjectType({
     fields:()=>({
         id:{type: new GraphQLNonNull(GraphQLID)},
         userid:{type: new GraphQLNonNull(GraphQLID)},
-        licenceNumber:{type:new GraphQLNonNull(GraphQLString)},
+        licenseNumber:{type:new GraphQLNonNull(GraphQLString)},
         licenceImage:{type:new GraphQLNonNull(GraphQLString)},
         vehicleNumber:{type:new GraphQLNonNull(GraphQLString)},
         vehicleCategory:{type:new GraphQLNonNull(GraphQLString)}
